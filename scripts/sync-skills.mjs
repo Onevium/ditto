@@ -187,7 +187,7 @@ function buildTargets() {
         name,
         description,
         prompt: noArgs(body),
-        fileContext: ['AGENTS.md', 'references/**', 'docs/research/**'],
+        fileContext: ['SKILL.md', 'AGENTS.md', 'references/**', 'scripts/**'],
       },
       null,
       2
