@@ -1,0 +1,29 @@
+{
+  "name": "ditto-clone-website",
+  "version": "0.1.0",
+  "description": "Ditto — a mode-routing website cloner skill for Claude Code and other agents. Recovers real source, then mirrors or rebuilds any site with objective pixel-diff verification.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "agent-skill",
+    "website-cloner",
+    "reverse-engineering",
+    "playwright",
+    "visual-diff"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "sync": "node scripts/sync-skills.mjs",
+    "sync:check": "node scripts/sync-skills.mjs --check"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "pixelmatch": "^6.0.0",
+    "pngjs": "^7.0.0",
+    "ssim.js": "^3.5.0"
+  },
+  "comment": "Scripts are placeholders in this methodology-skeleton milestone; deps are declared for the implementation milestone. After install, run `npx playwright install chromium`."
+}

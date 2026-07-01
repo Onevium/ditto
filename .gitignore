@@ -1,0 +1,12 @@
+# reference clones (studied, not shipped)
+ref-jane/
+ref-jcodes/
+
+# per-clone working output
+clones/
+
+# deps & build
+node_modules/
+dist-build/
+*.log
+.DS_Store
